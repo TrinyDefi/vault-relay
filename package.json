@@ -1,0 +1,14 @@
+{
+  "name": "vault-relay-worker",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node worker.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "viem": "^2.56.8"
+  }
+}
